@@ -1,17 +1,204 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    <! --- This is my Portfolio --->
-    <h1>
-        Helene Bachmann
-    test 7 to upload to repo main folder
-<! --- pick top main when sync ---> 
-    </h1>
-</body>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel = "stylesheet" href="style.css" />
+
+    <!-- bootstrap icon link -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+
+    <title>Portfolio</title>
+  </head>
+  <body>
+      <!--  <section class="home">
+        <nav class='nav-bar'>
+            <h1 class='sliding-text'>© 2021. All rights reserved.</h1>
+            <ul class='list'>
+                <li><a href="https://www.linkedin.com/in/nathanzebedee" target='_blank'>Linkedin</a></li>
+                <li><a href="https://github.com/nathanzebedee" target='_blank'>GitHub</a></li>
+                <li><a href="https://nathanzebedee.github.io/blog.github.io/" target='_blank'>Blog</a></li>
+                <li><a href="https://drive.google.com/file/d/1k68iJoq6bXlVcl5N_p-oDSqyRlZDY7Tq/view?usp=sharing"
+                        target='_blank'>Resume</a></li>
+            </ul>
+        </nav>
+    -->
+      <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg bg-dark navbar-dark py-3">
+        <div class="container">
+            <!-- the # is the link for where the bottum is taking you 
+            replace it with a path/file name -->
+            <a href="#" class="navbar-brand"> <img src="img/logoBachmann.png" alt=""></a>
+
+            <button 
+            class="navbar-toggler" 
+            type="button"
+            data-bs-toggle="collapse" 
+            data-bs-target="#navmenu"
+            >
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navmenu">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <!-- the # is the link for where the bottum is taking you 
+                        replace it with a path/file name -->
+                        <a href="#about" class = "nav-link">About</a>
+                    </li>
+                    <li class="nav -item">
+                        <a href="#projects" class = "nav-link">Projects</a>
+                    </li>
+                    <li class="nav -item">
+                        <a href="#contact" class = "nav-link">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+   
+ 
+
+    <!-- Showcase -->
+    <section class="bg-ligth text-dark p-5 text-center text-sm-start">
+        <div class="container">
+            <div class="d-sm-flex aline-items-center justify-content-between">
+                <div>
+                    <h1>Helene Bachmann's <span class="text-muted"> Portfolio
+                    </span></h1>
+                    <p class="lead my-4">
+                        Welcome to my Portfolio <br>
+                        I am learning Full Stack Development from MIT <br>
+                        and expect to be done in August 2022 <br>
+                        After that i will studie react, JS, <br>
+                        Node and Bootstrap even more to increase my coding skills
+
+                    </p>
+                    <button class="btn btn-dark btn-lg">Furniture Designer <br> // Architect
+                    </button>
+                    <button class="btn btn-dark btn-lg">Full Stack Developer
+                    </button>
+                </div>
+                <img 
+                class="img-fluid d-sm-block" 
+                src="img/logoFrontPage.png" 
+                alt="" 
+                />
+            </div>
+        </div>
+    </section>
+
+      <!-- About Section-->
+      <section id="about" class="bg-dark text-light p-3 text-center text-sm-start">
+        <div class="container">
+            <div class="d-sm-flex aline-items-center justify-content-between">
+                <div>
+                    <h1>About</h1>
+                </div>
+            </div>
+        </div>
+     
+      <div class="container">
+          <div class="row align-items-center justify-content-between">
+              <div class="col-md">
+                  <img src="img/HeleneBachmann_Headshot.jpg" class="img-fluid" alt="">
+              </div>
+              <div class="col-md p-5">
+                  <h2>A Little About Myself</h2>
+                  <p class="lead"> 
+                      Hi <br>
+                      I startet the full Stack Development cource back in October 2021 and expect to be gratuation on August 2022 <br>
+                      My plan is to further studie JS, React, Node etc. to become a valid future coworker <br>
+                      I have a Master in Architecture and Design from the Royal Danish Academy and are currently working with Furnityre design in Vietnam
+                  </p>
+              </div>
+          </div>
+      </div>
+    </section>
+   <!-- second page
+    <section class="second-page">
+         video
+        <iframe id="video" frameborder="0" allowfullscreen="1" allow="autoplay; encrypted-media" width="560"
+            height="315" src="https://www.youtube.com/embed/EHtnfMhYezA" data-tooltip-align="b,c"
+            data-tooltip="YouTube video player" aria-label="YouTube video player" data-title="YouTube video player">
+        </iframe>
+
+        <div class="intro">
+            <a class='contact-me' href="mailto:nathan.zebedee@gmail.com" target='_blank'><h2>Reach Out</h2></a>
+        </div>
+    </section>
+--> 
+
+
+    <!-- Boxes -->
+    <section id="projects" class="text-dark p-3 text-center text-sm-start">
+        <div class="container">
+            <div class="d-sm-flex aline-items-center justify-content-between">
+                <div>
+                    <h1>Projects</h1>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="p-5">
+        <div class="container">
+            <div class="row text-center g-4">
+                <!-- Collom 1 -->
+                <div class="col-md">
+                    <div class="card border-dark mb-3" style="width: 18rem;">
+                        <img src="img/iconChair.jpg" 
+                        class="card-img-top" 
+                        alt=""/>
+                        <div class="card-body">
+                          <h5 class="card-title">Icon Chair</h5>
+                          <p class="card-text">Icon Chair was first design for Vifa fair but quickly found its was to the hearts of many.</p>
+                          <a href="#" class="btn btn-dark">Check out the project</a>
+                        </div>
+                      </div>
+                </div>
+                   <!-- Collum 2 -->
+                <div class="col-md">
+                    <div class="card border-dark mb-3" style="width: 18rem;">
+                        <img src="img/iconChair2.jpg" 
+                        class="card-img-top" 
+                        alt=""/>
+                        <div class="card-body">
+                          <h5 class="card-title">Icon Chair 2</h5>
+                          <p class="card-text">Icon Chair 2 was first design for Vifa fair but quickly found its was to the hearts of many.</p>
+                          <a href="#" class="btn btn-dark">Check out the project</a>
+                        </div>
+                      </div>
+                </div>
+                   <!-- Collum 3 -->
+                <div class="col-md">
+                    <div class="card border-dark mb-3" style="width: 18rem;">
+                        <img src="img/WhiteFluffChair.jpg" 
+                        class="card-img-top" 
+                        alt=""/>
+                        <div class="card-body">
+                          <h5 class="card-title">White Fluff Chair</h5>
+                          <p class="card-text">White Fluff Chair was first design for Vifa fair but quickly found its was to the hearts of many.</p>
+                         <!-- the # is the link for where the bottum is taking you 
+                        replace it with a path/file name -->
+                        <!-- target="_blank" = makes it open in a new window! -->
+                          <a href="https://github.com/HeleneBachmann/Real_time_bus_tracker" target="_blank" class="btn btn-dark">Check out the project</a>
+                        </div>
+                      </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+  
+      <!-- Bootstrap Bundle with Popper -->
+    <script 
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+  </body>
 </html>
