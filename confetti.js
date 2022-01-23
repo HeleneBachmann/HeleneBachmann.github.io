@@ -111,5 +111,3 @@ window.addEventListener('resize', function () {
 window.addEventListener('click', function () {
   initConfetti();
 });
-
-setInterval(function() {myFunc("param1", "param2")}, 2000);
