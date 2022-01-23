@@ -69,6 +69,11 @@
         <div class="container">
             <div class="d-sm-flex aline-items-center justify-content-between">
                 <div>
+                <!-- Confetti plugin as background for this section -->
+                <!-- Thank you Nicholas Suski for making this fun plugin -->
+                <!-- https://www.codehim.com/animation-effects/javascript-confetti-explosion-effect/-->
+                <canvas id="canvas" style="position: absolute; top:0;left:0; z-index: -1;"></canvas>
+                   
                     <h1>Helene Bachmann's <span class="text-muted"> Portfolio
                     </span></h1>
                     <p class="lead my-4">
@@ -195,6 +200,9 @@
         </div>
     </section>
 
+        <!-- confetti caller -->
+    <script type="text/javascript" src="confetti.js"> 
+    </script>
   
       <!-- Bootstrap Bundle with Popper -->
     <script 
