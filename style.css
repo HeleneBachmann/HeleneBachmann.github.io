@@ -15,11 +15,6 @@
     padding: 20px;
 }
 
- .about-page
-{
-    background: rgb(221, 153, 153);
-    padding: 3%;
-}
 .welcome-page
 {
     height: 86vh;
@@ -27,8 +22,20 @@
     color: black;
     padding: top 5%;
 }
+
 .about-page
 {
+    background: rgb(221, 153, 153);
+    padding: 3%;
+    height: 86vh;
+    width: 100vw;
+    color: white;
+    padding: top 5%;
+}
+.projects-page
+{
+    background: #D4B0D4;
+    padding: 3%;
     height: 86vh;
     width: 100vw;
     color: white;
