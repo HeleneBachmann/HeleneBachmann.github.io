@@ -20,7 +20,13 @@
     background: rgb(221, 153, 153);
     padding: 3%;
 }
-
+.welcome-page
+{
+    height: 86vh;
+    width: 100vw;
+    color: black;
+    padding: top 5%;
+}
 .about-page
 {
     height: 86vh;
