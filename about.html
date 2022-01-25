@@ -1,0 +1,114 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel = "stylesheet" href="style.css" />
+
+    <!-- bootstrap icon link -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+
+    <title>About</title>
+  </head>
+  <body>
+     
+      <!-- Navbar -->
+      <nav class="navbar navbar-expand-lg bg-white navbar-light py-3">
+        <div class="container">
+            <!-- the # is the link for where the bottum is taking you 
+            replace it with a path/file name -->
+            <a href="#" class="navbar-brand"> <img src="img/logoBachmann.png" alt=""></a>
+
+            <button 
+            class="navbar-toggler" 
+            type="button"
+            data-bs-toggle="collapse" 
+            data-bs-target="#navmenu"
+            >
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navmenu">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav -item">
+                        <a href="index.html" class = "nav-link" target="_self">Home</a>
+                    </li>
+                    <li class="nav -item">
+                        <a href="#about" class = "nav-link text-muted">About</a>
+                    </li>
+                    <li class="nav -item">
+                        <a href="projects.html" class = "nav-link" target="_self">Projects</a>
+                    </li>
+                    <li class="nav -item">
+                        <a href="contact.html" class = "nav-link" target="_self">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+      <!-- About Section-->
+      <section id="about" class="about-page" >
+          <!-- text-light p-3 text-center text-sm-start"-->
+        <div class="container">
+            <div class="d-sm-flex aline-items-center justify-content-between">
+                <div>
+                    <h1>About</h1>
+                </div>
+            </div>
+        </div>
+     
+      <div class="container">
+          <div class="d-sm-flex row align-items-center justify-content-between">
+              <div class="col-md">
+                  <img src="img/HeleneBachmann_Headshot.jpg" class="image" alt="#" ;">
+              </div>
+              <div class="col-md p-5">
+                  <h2>A Little About Myself</h2>
+                  <p class="lead"> 
+                      Hi <br>
+                      I startet the full Stack Development cource back in October 2021 and expect to be gratuation on August 2022 <br>
+                      My plan is to further studie JS, React, Node etc. to become a valid future coworker <br>
+                      I have a Master in Architecture and Design from the Royal Danish Academy and are currently working with Furnityre design in Vietnam
+                  </p>
+              </div>
+          </div>
+      </div>
+    </section>
+
+   <!-- Video -->
+    <section class="second-page">
+        <iframe id="video" frameborder="0" allowfullscreen="1" allow="autoplay; encrypted-media" width="560"
+            height="315" src="https://www.youtube.com/embed/nGeKSiCQkPw" data-tooltip-align="b,c"
+            data-tooltip="YouTube video player" aria-label="YouTube video player" data-title="YouTube video player">
+        </iframe>
+        <div class="intro">
+            <a class='contact-me' href="mailto:nathan.zebedee@gmail.com" target='_blank'><h2>Reach Out</h2></a>
+        </div>
+    </section>
+
+
+<!-- Footer -->
+<footer class="p-5 bg-white text-dark text-center position-relative">
+    <div class="container">
+        <p class="lead"> Thanks </p>
+        <a href="#" class="position-absolute bottom-0 end-0 p-5">
+            <i class="bi bi-arrow-up-circle h1"></i>
+        </a>
+    </div>
+</footer>
+        <!-- confetti caller -->
+    <script type="text/javascript" src="confetti.js"> 
+    </script>
+
+      <!-- Bootstrap Bundle with Popper -->
+    <script 
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+  </body>
+</html>

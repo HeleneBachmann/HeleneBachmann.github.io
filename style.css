@@ -5,3 +5,65 @@
     border: 1px solid #ddd;
     user-select: none;
  }
+ body
+ {
+     font-family: "Dansk Text", sans-serif;
+ }
+
+ .intro
+{
+    padding: 20px;
+}
+
+ .about-page
+{
+    background: rgb(221, 153, 153);
+    padding: 3%;
+}
+
+.about-page
+{
+    height: 86vh;
+    width: 100vw;
+    color: white;
+    padding: top 5%;
+}
+
+.second-page
+{
+    height: 86vh;
+    width: 100vw;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    overflow: hidden;
+}
+
+.about-page .image
+{
+    box-sizing: border-box;
+    height: 60vh;
+    border-radius: 5%;
+}
+
+#video
+{
+    box-sizing: border-box;
+    padding: 2%;
+    height: 60vh;
+    border-radius: 8%;
+}
+
+.second-page
+{
+    background:rgb(230, 176, 146)
+}
+ /* Font
+ Colour
+ Navigation
+ Image
+ Styled links
+ Use of grid layout, which will be assessed by ælokking at the link to your css file
+ 
+ */

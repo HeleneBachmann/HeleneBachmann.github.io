@@ -12,10 +12,13 @@ const gravity = 0.5;
 const terminalVelocity = 5;
 const drag = 0.075;
 const colors = [
-{ front: 'black', back: 'black' },
-{ front: 'lightblack', back: 'lightblack' },
-{ front: 'lightgrey', back: 'lightgrey' },
-{ front: 'darkgrey', back: 'lightgrey' },];
+{ front: '#E3A9A8', back: '#E3A9A8' },
+{ front: '#A8C5ED', back: '#A8C5ED' },
+{ front: '#CDA8CD', back: '#CDA8CD' },
+{ front: '#E2A789', back: '#E2A789' },
+{ front: '#E2DCAC', back: '#E2DCAC' },
+{ front: '#8F90C2', back: '#8F90C2' },
+{ front: '#AAE1DB', back: '#AAE1DB' },];
 
 
 //-----------Functions--------------
